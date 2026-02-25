@@ -1,4 +1,3 @@
-package lab2.lab2_1.Java;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;

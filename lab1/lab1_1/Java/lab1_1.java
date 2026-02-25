@@ -1,12 +1,13 @@
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.text.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.text.NumberFormat;
 import java.util.Locale;
+import javax.swing.*;
+import javax.swing.border.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.plaf.FontUIResource;
+import javax.swing.text.*;
 
 public class lab1_1 extends JFrame {
 
@@ -100,15 +101,7 @@ public class lab1_1 extends JFrame {
         setupMsgLabel(msg2);
         card.add(msg2, c);
 
-        // Tip
-        c.gridy++;
-        c.insets = new Insets(8, 0, 8, 0);
-        JLabel tip = new JLabel("Tip: Press Enter to compute instantly");
-        tip.setForeground(MUTED);
-        tip.setFont(new Font("Segoe UI", Font.ITALIC, 12));
-        card.add(tip, c);
-        c.insets = new Insets(0, 0, 0, 0);
-
+        
         // Buttons
         c.gridy++;
         c.insets = new Insets(6, 0, 10, 0);

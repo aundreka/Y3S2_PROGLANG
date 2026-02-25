@@ -192,7 +192,7 @@ int main(void) {
 
         student_grade[i] = read_int_in_range("Student Grade (0-100): ", 0, 100);
 
-        printf("%s✓ Saved.%s\n", C_GOOD, C_RESET);
+        printf("%sSuccesfully Saved.%s\n", C_GOOD, C_RESET);
     }
 
     // Compute lowest grade
